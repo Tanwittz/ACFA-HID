@@ -1,4 +1,4 @@
-# ACFA-HID (ต้นแบบ) — Arrival-Context and First-Action Fusion Detector
+# ACFA-HID — Arrival-Context and First-Action Fusion Detector
 
 เครื่องมือตรวจจับ BadUSB/HID ประเภทที่สามของงานค้นคว้าอิสระ (กลไกวิเคราะห์บริบท
 การเชื่อมต่อ หมวด `ContextualFusion`) ตัดสินจากหลักฐานสองแกนที่เป็นอิสระจาก
