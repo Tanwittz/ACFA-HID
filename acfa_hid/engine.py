@@ -7,7 +7,7 @@
   - สัญญาณ B (First-Action Semantics): การกระทำแรกเปิด "ช่องทางสั่งการระบบ"
         พิสูจน์จาก (ก) ลำดับคีย์ (Win+R / powershell / cmd / wt) หรือ
                   (ข) เหตุการณ์ปลายทาง (หน้าต่าง Run/คอนโซล หรือการสร้างกระบวนการล่าม)
-  - การตัดสิน: โหมด 'and' => A ∧ B ; โหมด 'score' => score >= theta_score
+  - การตัดสิน: โหมด 'and' => A ∧ B ; โหมด 'score' => score >= theta_score (Default = 2)
 """
 from dataclasses import dataclass, field
 from typing import List, Optional, Set
