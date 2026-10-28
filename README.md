@@ -27,12 +27,3 @@
     python3 run_demo.py                        # สาธิต 30 รอบ/เงื่อนไข + เขียน CSV
     python3 -m acfa_hid.cli --condition P2     # ดูผลหนึ่งรอบ (C0/P1/P2/P3/FP_EDGE)
     python3 -m acfa_hid.cli --condition P1 --mode score --theta-arrival 1500
-
-ไฟล์ `acfa_events.csv` ใช้สคีมาเดียวกับ `hid_eval/_full_version` จึงป้อนต่อเข้าสคริปต์ประเมินได้:
-
-    python3 hid_eval/_full_version/evaluate.py --input acfa_events.csv --output-dir results
-
-## ค่าพารามิเตอร์ที่ต้องยืนยันจากการทดลองจริง
-
-theta_arrival_ms (เริ่ม 2000), เซตคำสั่ง command surface, และ (โหมด score) w1/w2/w3, theta_score
-— ปรับ theta_score กวาดค่าเพื่อสร้างเส้นโค้ง ROC ตามหัวข้อ 3.4.5
